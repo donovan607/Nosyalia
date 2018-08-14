@@ -23,4 +23,4 @@ bot.on('message', msg => {
 });
 
 //Login du bot sur le serveur
-bot.login('NDc4NTMzNTgwMzg2MDc0NjI0.DlO2PQ.yCpBJvF47EMXIPnT2Ed2Br9IGjc')
+ bot.login(process.env.TOKEN)
